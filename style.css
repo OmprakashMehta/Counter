@@ -40,7 +40,9 @@
   cursor: pointer;
   background-color: #ffffff;
   border: 2px solid rgb(189, 171, 171);
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3),
+    -4px -4px 10px rgba(255, 255, 255, 0.1);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 .bi-dash,
 .bi-plus-lg {
@@ -57,5 +59,12 @@
   cursor: pointer;
   background-color: #ffffff;
   border: 2px solid rgb(189, 171, 171);
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2),
+    -4px -4px 10px rgba(255, 255, 255, 0.1);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+.btn:active {
+  box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 10px rgba(255, 255, 255, 0.1);
+  transform: translateY(2px);
 }
