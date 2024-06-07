@@ -74,9 +74,9 @@
     width: 285px;
   }
   .btn1 {
-    left: 0;
+    left: 0%;
   }
   .btn2 {
-    right: 0;
+    right: 0%;
   }
 }
