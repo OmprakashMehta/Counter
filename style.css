@@ -68,3 +68,15 @@
     inset -4px -4px 10px rgba(255, 255, 255, 0.1);
   transform: translateY(2px);
 }
+
+@media screen and (max-width: 768px) {
+  .box {
+    width: 285px;
+  }
+  .btn1 {
+    left: 0;
+  }
+  .btn2 {
+    right: 0;
+  }
+}
